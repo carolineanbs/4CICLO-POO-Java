@@ -1,0 +1,20 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<form class="row g-3">
+        <div class="col-md-3">
+            <label for="v" class="form-label">Valor Presente</label>
+            <input type="number" name="n" class="form-control" id="inputv"  placeholder="ex: 1.500 (R$)">
+        </div>
+        <div class="col-md-3">
+            <label for="j" class="form-label">Juros(%):</label>
+            <input type="number" name="j"class="form-control" id="inputj"  placeholder="ex: 15% ao mês">
+        </div>
+        <div class="col-md-3">
+            <label for="p" class="form-label">Periodo:</label>
+            <input type="number" name ="p" class="form-control" id="inputp" placeholder="ex: 12 (meses)">
+        </div>
+        <div class="col-md-4">         
+            <input type="submit" name="calcular" class="btn btn-primary" value="Calcular">
+                <br>
+            </div>
+    </form>
